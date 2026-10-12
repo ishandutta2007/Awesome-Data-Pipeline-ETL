@@ -30,77 +30,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global data pipeline and ETL tools market is estimated at approximately **$12B–$15B in 2025** (scaling to **$35B–$48B by 2030** at ~20–26% CAGR), propelled by real-time streaming data, cloud warehouse adoption, and AI ingestion demands. The sector is **moderately to highly fragmented** rather than winner-take-all; while enterprise cloud giants and modern leaders hold strong footprints, the landscape supports diverse specialized solutions across managed ELT, stream processing, long-tail connectors, and thriving open-source ecosystems.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Data Pipelines](https://www.salesforce.com/)**  
-
-  Salesforce-native data integration service for connecting external data sources, transforming data with Data Prep recipes, and loading into Data Cloud or other destinations.
-
-
-
-- **[Fivetran](https://www.fivetran.com/)**  
-
-  Fully managed ELT platform with 700+ pre-built connectors. Automated schema drift handling and reliable syncs. Pricing based on Monthly Active Rows (MAR). Free tier up to 500K MAR .
-
-
-
-- **[Airbyte Cloud](https://airbyte.com/)**  
-
-  Managed version of the open-source Airbyte platform with 600+ connectors. Credit-based pricing with 30-day free trial including 400 credits (valued at $2,000) .
-
-
-
-- **[Stitch Data](https://www.stitchdata.com/)**  
-
-  Cloud-based ELT built on the Singer framework. 130+ managed connectors with automatic schema detection. Now part of Qlik Talend Cloud .
-
-
-
-- **[Hevo Data](https://hevodata.com/)**  
-
-  No-code ELT platform with 150+ connectors. Features in-built transformation capabilities, auto-healing pipelines, and near real-time replication .
-
-
-
-- **[Matillion](https://www.matillion.com/)**  
-
-  Cloud-native ELT with strong transformation UI. SQL-pushdown transformations and visual pipeline design. Optimized for cloud data warehouses .
-
-
-
-- **[Portable.io](https://portable.io/)**  
-
-  Managed ETL specializing in long-tail and obscure SaaS connectors. Builds custom connectors on demand when catalog falls short .
-
-
-
-- **[Estuary Flow](https://estuary.dev/)**  
-
-  Unified batch and streaming platform with real-time CDC. Pricing combines GB plus per-connector fees. Free tier available .
-
-
-
-- **[Meltano](https://meltano.com/)**  
-
-  Managed hosting for the open-source Meltano platform. Built on Singer protocol with 600+ connectors. GitLab spinoff .
-
-
-
-- **[Rivery](https://rivery.io/)**  
-
-  Cloud ELT platform with CDC capabilities, reverse ETL, and bi-directional sync. Published pricing from ~$500/month .
+| Platform | Description | Company Size / Valuation | Starting Pricing | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Data Pipelines](https://www.salesforce.com/)** | Salesforce-native data integration service connecting external data sources and Data Prep recipes to Data Cloud. | ~$290B+ Market Cap ($38B+ Rev) | $9,000/org/month (billed annually; requires Enterprise+) | No self-serve free tier/trial (Available via Salesforce Developer Edition org or custom Enterprise AE PoC) |
+| **[Fivetran](https://www.fivetran.com/)** | Fully managed ELT platform with 700+ pre-built connectors and automated schema drift handling. | $5.6B Valuation (~$325M ARR) | $500/month (Starter tier; consumption based on MAR) | Free forever up to 500,000 MAR/month (or 14-day free trial with unlimited rows) |
+| **[Airbyte Cloud](https://airbyte.com/)** | Cloud-managed version of open-source Airbyte with 600+ pre-built connectors. | $1.5B Valuation (~$18M–$20M ARR) | $15/month (Base Team tier; $2.50/credit consumption) | 30-day free trial with 400 free credits (valued at $2,000) |
+| **[Matillion](https://www.matillion.com/)** | Cloud-native ELT platform with visual pipeline design and SQL pushdown transformation. | $1.5B Valuation (~$90M–$100M ARR) | $2.00–$2.50/credit (Task-hour consumption; ~$20,000/year minimum commit for Teams) | Developer Tier (Free forever for 1 developer user; plus 14-day trial with 500 free credits) |
+| **[Rivery](https://rivery.io/)** | Cloud ELT platform with CDC capabilities, reverse ETL, and Python workflow support (acquired by Boomi). | ~$100M Acquired / $52M Raised (~$21M ARR) | $0.75–$0.90/credit (~$500/month for standard usage) | 14-day free trial with 1,000 free usage credits (no credit card required) |
+| **[Stitch Data](https://www.stitchdata.com/)** | Cloud ELT built on the Singer framework with 130+ connectors (part of Qlik Talend). | $60M Acquired ($30M+ Raised) | $100/month (Standard plan for up to 5M rows/month) | 14-day free trial with unlimited row syncing and all plan features |
+| **[Hevo Data](https://hevodata.com/)** | Automated no-code ELT platform with 150+ connectors and auto-healing data pipelines. | $43M Raised (~$45M ARR) | $265–$299/month (Starter plan; scales from 5M events/month) | Free forever plan with up to 1 Million events/month (limited to free connectors, 5 users) |
+| **[Estuary Flow](https://estuary.dev/)** | Real-time batch and streaming data pipeline platform with low-latency CDC. | $24M Raised (Series A) | $0.50/GB + $100/month per active connector instance | Free forever plan up to 10 GB/month data transfer and 2 active connector instances |
+| **[Meltano](https://meltano.com/)** | Managed cloud infrastructure and orchestration for open-source Singer pipelines (GitLab spin-off). | $12.4M Raised (Seed) | Starter tier with 200 compute hours/month (~$150–$300/mo estimated usage) | Meltano Open is Free forever (Cloud requires contacting sales / 14-day pilot upon request) |
+| **[Portable.io](https://portable.io/)** | Managed ETL specializing in long-tail obscure SaaS APIs and custom bespoke connectors. | $3.24M Raised (Series A) | $1,800/month (Standard flat-rate unlimited volume plan) | 14-day free trial with unlimited connector testing and data syncing |
 
 
 
